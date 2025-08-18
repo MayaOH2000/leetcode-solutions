@@ -18,4 +18,6 @@ This repository contains solutions to LeetCode problems in multiple languages: P
 - Each problem file includes:
   - Problem name & ID
   - LeetCode link
-  - Approach & explanation
+  - Core approach (briefly explained in comments)
+- Detailed step-by-step logic is stored in the **Pseudocode** folder.
+- No time/space complexity is included, only clear reasoning and steps.
