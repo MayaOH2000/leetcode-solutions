@@ -10,9 +10,9 @@ This repository contains solutions to LeetCode problems in multiple languages: P
 | DP       | 0/40 | 0/40   | 0/40 |
 
 ## Languages
-- Python
-- C++
-- Java
+- Python  (Primary focus)
+- C++ (Planned)
+- Java  (Planned)
 
 ## Notes
 - Each problem file includes:
