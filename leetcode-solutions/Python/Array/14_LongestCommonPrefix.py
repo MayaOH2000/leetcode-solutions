@@ -1,6 +1,9 @@
-    
-from typing import List
+#ID: 14
+#Problem: Longest Common Prefix
+#Difficulty: Easy
+#Link: https://leetcode.com/problems/longest-common-prefix/
 
+from typing import List
 
 def longestCommonPrefix(strs: List[str]) -> str:
     #Storing first word
