@@ -1,7 +1,8 @@
-#ID: 1
-#Problem: Two Sum
-#Difficulty: Easy
-#Link: https://leetcode.com/problems/two-sum/
+# ID: 1
+# Problem: Two Sum
+# Difficulty: Easy
+# Link: https://leetcode.com/problems/two-sum/
+# Approach: Iteration with for loops (track seen numbers and indices)
 
 from typing import List
 

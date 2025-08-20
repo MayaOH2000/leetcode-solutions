@@ -1,6 +1,7 @@
 # Problem 14: Longest Common Prefix
 Difficulty: Easy
 Category: Array
+Approach: Iteration with for loop over words + while loop to shrink prefix
 
 ## Goal
 - Find longest prefix in array

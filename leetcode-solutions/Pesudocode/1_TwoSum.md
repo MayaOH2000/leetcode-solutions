@@ -1,6 +1,7 @@
 # Problem 1: Two Sum
 Difficulty: Easy
 Category: Array
+Approch: Iteration with for loops (track seen numbers and indices)
 
 ## Goal
 - Find two numbers in the array that add up to the target value.

@@ -1,12 +1,13 @@
-#ID: 14
-#Problem: Longest Common Prefix
-#Difficulty: Easy
-#Link: https://leetcode.com/problems/longest-common-prefix/
+# ID: 14
+# Problem: Longest Common Prefix
+# Difficulty: Easy
+# Link: https://leetcode.com/problems/longest-common-prefix/
+# Approach: Iteration with for loop over words + while loop to shrink prefix
 
 from typing import List
 
 def longestCommonPrefix(strs: List[str]) -> str:
-    #Storing first word
+    # Storing first word
     prefix = strs[0]
 
     # Compare prefix against each remaining word
