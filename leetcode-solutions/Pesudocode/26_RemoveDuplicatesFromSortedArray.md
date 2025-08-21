@@ -34,4 +34,25 @@ Approach:
     It does not matter what you leave beyond the returned k (hence they are underscores).
 
 ## Logic
-1. Take first element in array
+1. Store unique element counter
+2. Go through the array with two pointers:  
+   - **Pointer 1** → marks the current element.  
+   - **Pointer 2** → starts at the element right after Pointer 1.  
+3. Compare values at Pointer 1 and Pointer 2:  
+   - If they **match**:  
+     - Remove duplicate from array 
+     - Keep Pointer 2 at the same index, since the next element shifts into its place.
+     - Continue until a different value is found.  
+   - If they **don’t match**:  
+     - Move on to the next comparison.  
+4. After finishing with a value:  
+   - Increase the unique element counter.  
+   - Move Pointer 1 to the next element.  
+   - Reset Pointer 2 to the element after Pointer 1.  
+   - If either pointer reaches the end of the array → stop.  
+5. Repeat until the array is fully checked.  
+6. **Return**:  
+   - The count of unique elements.  
+   - The array with unique elements kept in order at the front and duplicates removed  
+
+    
