@@ -1,7 +1,7 @@
 # Problem 26: Removed Duplicates from Sorted Array
 Difficulty: Easy
 Category: Array
-Approach: 
+Approach: Two pointers (sorted array)
 
 ## Goal
 - Array given in ascending order (smallest to biggest)
@@ -37,7 +37,7 @@ Approach:
 1. Store unique element counter
 2. Go through the array with two pointers:  
    - **Pointer 1** → marks the current element.  
-   - **Pointer 2** → starts at the element right after Pointer 1.  
+   - **Pointer 2** → starts at the element right after Pointer 1. 
 3. Compare values at Pointer 1 and Pointer 2:  
    - If they **match**:  
      - Remove duplicate from array 
