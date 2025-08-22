@@ -28,3 +28,4 @@ This repository contains solutions to LeetCode problems in multiple languages: P
 - Try to solve 1 problem a day to build problem-solving skills.
 - Track progress and maintain clear, structured notes.
 - Keep code readable and organized for future reference.
+- Recognize and learn common problem-solving patterns (see `patterns.md`).
