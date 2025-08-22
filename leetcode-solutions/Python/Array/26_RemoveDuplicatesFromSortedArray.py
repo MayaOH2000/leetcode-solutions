@@ -7,17 +7,17 @@
 from typing import List
 
 def removeDuplicates( nums: List[int]) -> int:
-    #Counter for new elements
+    # Counter for new elements
     new_num = 0
 
-    #pointer 1 starting position
+    # pointer 1 starting position
     p1 = 0
    
     while p1 < len(nums):
-        #pointer 2 starting positions
+        # pointer 2 starting positions
         p2 = p1 + 1
         while p2 < len(nums):
-                #compares pointer 1 and pointer 2 values      
+                # compares pointer 1 and pointer 2 values      
                 if nums[p1] == nums[p2]:
                     del nums[p2] 
                 else:
@@ -25,7 +25,7 @@ def removeDuplicates( nums: List[int]) -> int:
         new_num += 1    
         p1 += 1
     return f"{new_num}, nums = {nums}"
-    #In leetcode it just want the unique element count as integer
+    # In leetcode it just want the unique element count as integer
     # return nums
 
 # Example test cases
