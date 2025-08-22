@@ -1,7 +1,7 @@
 # ID: 26
-# Problem: Removed Duplicates from Sorted Array
+# Problem: Removed Element
 # Difficulty: Easy
-# Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+# Link: https://leetcode.com/problems/remove-element/
 # Approch: Double Iteration
 
 from typing import List
