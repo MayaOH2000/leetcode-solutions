@@ -1,7 +1,7 @@
 # Problem 26: Removed Duplicates from Sorted Array
 Difficulty: Easy
 Category: Array
-Approach: Two pointers (sorted array)
+Approach: Double Iteration (sorted array)
 
 ## Goal
 - Array given in ascending order (smallest to biggest)

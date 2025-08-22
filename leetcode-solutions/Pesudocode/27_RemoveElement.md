@@ -1,7 +1,7 @@
 # Problem 27: Remove Element
 Difficulty: Easy
 Category: Array
-Approach: Two Pointers
+Approach: Double Iteration
 
 # Goal
 - Given an array of intergers and value to remove
