@@ -30,5 +30,5 @@ def removeDuplicates( nums: List[int]) -> int:
 
 # Example test cases
 if __name__ == "__main__":
-    print(removeDuplicates([1,1,2,3]))    #Output 3, [1,2,3]
+    print(removeDuplicates([1,1,2,3]))    # Output 3, [1,2,3]
     print(removeDuplicates([0,0,1,2,2,2,3,3,4,5,5])) #Ouput 6, [0,1,2,3,4,5]
