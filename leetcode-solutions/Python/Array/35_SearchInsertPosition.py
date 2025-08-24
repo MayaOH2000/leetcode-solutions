@@ -2,14 +2,21 @@
 # Problem: Search Insert Position
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/remove-element/
-# Approch: 
+# Approch: Iteration (for loop)
 
 from typing import List
 
 def searchInsert( nums: List[int], target: int) -> int:
-    
-
-
+    #Going throught array
+    for index in range(len(nums)):
+        #Comparring values to target
+        if nums[index] >= target:
+            return index
+        else:
+            #What to do when reached last element of array and no target value
+            if index == len(nums) - 1:
+                return index + 1
+            
 
 # Example test cases
 if __name__ == "__main__":
