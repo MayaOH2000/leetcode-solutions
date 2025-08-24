@@ -1,7 +1,7 @@
 # ID: 35
 # Problem: Search Insert Position
 # Difficulty: Easy
-# Link: https://leetcode.com/problems/remove-element/
+# Link: https://leetcode.com/problems/search-insert-position/
 # Approch: Iteration (for loop)
 
 from typing import List

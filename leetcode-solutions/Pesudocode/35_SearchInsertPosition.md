@@ -1,7 +1,7 @@
 # Problem 36: Search Insert position
 Difficulty: Easy
 Category: Array
-Approach: Iteration (forloop)
+Approach: Iteration (for loop)
 
 # Goal 
 - Given sorted ascending array (from smallest to bigest)
