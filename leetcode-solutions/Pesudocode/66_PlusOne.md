@@ -1,7 +1,7 @@
-# Problem 36: Search Insert position
+# Problem 66: Plus One
 Difficulty: Easy
 Category: Array
-Approach: 
+Approach: String Conversion 
 
 # Goal
 - Array given in interger example: 123 = [1,2,3]

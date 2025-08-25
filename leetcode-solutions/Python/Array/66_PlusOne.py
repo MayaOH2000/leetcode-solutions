@@ -2,7 +2,7 @@
 # Problem: Plus One
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/plus-one/
-# Approach: 
+# Approach: String Conversion Method 
 
 from typing import List
 
