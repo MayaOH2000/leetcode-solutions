@@ -6,11 +6,17 @@ Tracks common problem-solving patterns and example problems.
 
 ## Arrays
 ### Two Pointers
-- Description: Use two indices to traverse array, often from start/end or slow/fast pointer.
-- Example Problems:
+- **Description:** Use two indices to traverse an array, often from start/end or with slow/fast pointers. Helps reduce time complexity compared to nested loops.
+- **Common Variations / Techniques:**
+  - Opposite ends → merge, compare, or partition sorted arrays
+  - Slow/fast → detect patterns, remove duplicates, or find cycles
+- **Typical Use Cases:** Often used with sorted arrays
+- **Example Problems:** 
   - #26 Remove Duplicates from Sorted Array
   - #27 Remove Element
-- Status: Learning / tentative
+  - #88 Merge Sorted Array
+- **Status:** Learning / tentative
+- **Notes / Tips:** Start pointers from the end for in-place merging to avoid overwriting
 
 ### Sliding Window
 - Description: Maintain a window of elements to optimize subarray/subsequence problems.
