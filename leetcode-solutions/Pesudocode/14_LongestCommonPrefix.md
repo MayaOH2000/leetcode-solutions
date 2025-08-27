@@ -1,6 +1,6 @@
 # Problem 14: Longest Common Prefix
 Difficulty: Easy
-Category: Array
+Category: Array, String
 Approach: Iteration with for loop over words + while loop to shrink prefix
 
 ## Goal

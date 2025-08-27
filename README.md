@@ -6,8 +6,8 @@ This repository contains solutions to LeetCode problems in multiple languages: P
 | Category                | Easy   | Medium | Hard |
 |-------------------------|--------|--------|------|
 | Arrays                  |  7/50  |  0/50  | 0/50 |
-| Strings                 |  0/50  |  0/50  | 0/50 |
-| Hash Maps               |  0/50  |  0/50  | 0/50 |
+| Strings                 |  1/50  |  0/50  | 0/50 |
+| Hash Maps               |  1/50  |  0/50  | 0/50 |
 | Trees                   |  0/30  |  0/30  | 0/30 |
 | Dynamic Programming (DP)|  0/40  |  0/40  | 0/40 |
 
