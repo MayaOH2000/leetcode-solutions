@@ -2,7 +2,7 @@
 # Problem: Convert Sorted Array to Binary Search Tree
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
-# Approach: 
+# Approach: Recursion (repeats itself)
 
 from typing import List, Optional
 
