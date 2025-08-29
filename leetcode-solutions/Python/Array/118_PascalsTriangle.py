@@ -2,12 +2,12 @@
 # Problem: Pascal's Triangle
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/pascals-triangle/
-# Approach: 
+# Approach: Build row by row using previous row (DP)
 
 from typing import List, Optional
 
 
-def generate(self, numRows: int) -> List[List[int]]:
+def generate(numRows: int) -> List[List[int]]:
 
 
 
