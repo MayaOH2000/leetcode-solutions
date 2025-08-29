@@ -51,6 +51,4 @@ Example 2:
 1. Pick middle of array → root (keeps tree balanced)  
 2. Left side → build left subtree (recursive)  
 3. Right side → build right subtree (recursive)  
-4. Stop when no numbers left → base case  
-
-# Dry 
+4. Stop when no numbers left → base case 

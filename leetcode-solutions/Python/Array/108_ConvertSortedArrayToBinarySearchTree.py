@@ -15,8 +15,26 @@ class TreeNode:
         self.right = right
 
 def sortedArrayToBST(nums: List[int]) -> Optional[TreeNode]:
+    #Empty array -> no node
+    if not nums:
+        return None
+    
+    #Find root/ starting node
+    middle = len(nums) // 2
+    print(nums[middle])
 
+    #Create root node
+    root = TreeNode(nums[middle])
+
+    # Create left subtree
+    root.left = sortedArrayToBST(nums[:middle])
+
+    # Creat right subtree
+    root.right = sortedArrayToBST(nums[middle + 1:])
+
+    return root
 
 
 if __name__ == "__main__":
     print(sortedArrayToBST([-10,-3,0,5,9])) # Output [0,-3,9,-10,null,5]
+    print(sortedArrayToBST([1,3])) # Output [3,1]
