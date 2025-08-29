@@ -56,7 +56,8 @@ Tracks common problem-solving patterns and example problems.
 ---
 
 ## Dynamic Programming (DP)
-- Description: Break problems into subproblems and build solutions incrementally.
+- Description: A way to solve problems step by step by **reusing answers** from smaller problems. (In other words, break a big problem into smaller ones and build the solution incrementally.)  
+- Intuition: Kind of like recursion (it repeats), but instead of doing the same work again and again, you **save the results** and build from them.  
 - Example Problems:
   - TBD
 - Status: Learning / tentative
