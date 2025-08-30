@@ -5,7 +5,7 @@
 
 from typing import List
 
-def getRow(self, rowIndex: int) -> List[int]:
+def getRow(rowIndex: int) -> List[int]:
 
 
 
