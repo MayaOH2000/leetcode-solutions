@@ -1,7 +1,7 @@
 # Problem 119: Pascal's Triangle Intuition
 Difficulty: Easy
 Category: Array, Dynamic Programming (DP)
-Approach:
+Approach: Build row by row using previous row (DP)
 
 # Goal
 - Given the rowIndex (top of triangle = 0 row)

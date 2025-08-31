@@ -2,6 +2,7 @@
 # Problem: Pascal's Triangle II
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/pascals-triangle-ii/
+# Approch: Build row by row using previous row (DP)
 
 from typing import List
 
