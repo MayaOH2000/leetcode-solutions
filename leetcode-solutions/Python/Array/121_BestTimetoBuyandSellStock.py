@@ -7,9 +7,30 @@
 from typing import List
 
 def maxProfit(prices: List[int]) -> int:
+    # Initlizing values
+    max_profit = 0
+    p1  = 0
+    p2 = 1
 
+    # Comparing prices
+    while p2 in range(len(prices)):
+        if prices[p1] < prices[p2]:
+            # Calculate profit
+            profit = prices[p2] - prices[p1]
+
+            # Update profit
+            if max_profit < profit:
+                max_profit = profit
+            
+            # Move pointer
+            p2 += 1 
+            
+        elif prices[p1] >= prices[p2]:
+            p1 = p2
+            p2 += 1
+    return max_profit
 
 if __name__ == "__main__":
     print(maxProfit([7,1,5,3,6,4])) # Output 5 (6-1)
-    # print(maxProfit([7,6,4,3,1]))   # Output 0
+    print(maxProfit([7,6,4,3,1]))   # Output 0
     print(maxProfit([2, 4, 1])) # Ouput 2 (4-2)
