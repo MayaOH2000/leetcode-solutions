@@ -2,15 +2,15 @@
 # Problem: Best Time to Buy and Sell Stock
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-# Approch: 
+# Approch: Two Pointer + Greedy Algorithm (local optimize)
 
 from typing import List
 
 def maxProfit(prices: List[int]) -> int:
     # Initlizing values
     max_profit = 0
-    p1  = 0
-    p2 = 1
+    p1 = 0  # Buy Day
+    p2 = 1  # Sell Day
 
     # Comparing prices
     while p2 in range(len(prices)):
