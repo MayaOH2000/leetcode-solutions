@@ -10,5 +10,6 @@ def maxProfit(prices: List[int]) -> int:
 
 
 if __name__ == "__main__":
-    print(maxProfit([7,1,5,3,6,4])) # Output 5
+    print(maxProfit([7,1,5,3,6,4])) # Output 5 (6-1)
     # print(maxProfit([7,6,4,3,1]))   # Output 0
+    print(maxProfit([2, 4, 1])) # Ouput 2 (4-2)
