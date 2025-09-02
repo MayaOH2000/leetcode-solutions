@@ -47,6 +47,29 @@ Tracks common problem-solving patterns and example problems.
 
 ---
 
+## Bit Manipulation
+### XOR (Exclusive OR)
+- **Description:** Use XOR properties to find unique elements or differences. XOR cancels out identical values (`A ^ A = 0`) and preserves unique ones (`A ^ 0 = A`).
+- **Common Variations / Techniques:**
+ - Single unique element among duplicates
+ - Finding missing numbers in sequences
+ - Swapping variables without temp storage
+- **Typical Use Cases:** 
+ - **Red flags:** O(1) space constraint + duplicates + "bit manipulation" tag
+ - Problems where identical elements should "cancel out"
+ - Finding the odd-one-out in paired data
+- **Key Properties:**
+  - `A ^ A = 0` (same values cancel)
+  - `A ^ 0 = A` (zero is neutral)
+  - Order doesn't matter (commutative)
+- Example Problems:
+  - #136 Single Number
+
+- **Status:** Learning / tentative
+- **Notes / Tips:** When you see duplicates + O(1) space, think XOR before hash maps. Trace through small examples to verify cancellation works.
+
+---
+
 ## Hash Maps
 - Description: Store and retrieve key-value pairs efficiently.
 - Example Problems:
