@@ -5,7 +5,7 @@ This repository contains solutions to LeetCode problems in multiple languages: P
 ## Progress Tracker
 | Category                | Easy   | Medium | Hard |
 |-------------------------|--------|--------|------|
-| Arrays                  |  11/50  |  0/50  | 0/50 |
+| Arrays                  |  12/50  |  0/50  | 0/50 |
 | Strings                 |  1/50  |  0/50  | 0/50 |
 | Hash Maps               |  1/50  |  0/50  | 0/50 |
 | Trees                   |  1/30  |  0/30  | 0/30 |
