@@ -5,9 +5,9 @@ This repository contains solutions to LeetCode problems in multiple languages: P
 ## Progress Tracker
 | Category                | Easy   | Medium | Hard |
 |-------------------------|--------|--------|------|
-| Arrays                  |  12/50  |  0/50  | 0/50 |
+| Arrays                  |  13/50  |  0/50  | 0/50 |
 | Strings                 |  1/50  |  0/50  | 0/50 |
-| Hash Maps               |  1/50  |  0/50  | 0/50 |
+| Hash Maps               |  2/50  |  0/50  | 0/50 |
 | Trees                   |  1/30  |  0/30  | 0/30 |
 | Dynamic Programming (DP)|  2/40  |  0/40  | 0/40 |
 
