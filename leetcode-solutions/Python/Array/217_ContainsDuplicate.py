@@ -1,7 +1,7 @@
 # ID: 217
-# Problem: Contains Duplicates
+# Problem: Contains Duplicate
 # Difficulty: Easy
-# Link: https://leetcode.com/problems/majority-element/
+# Link: https://leetcode.com/problems/contains-duplicate/
 # Approach: Used set to store numbers 
 
 from typing import List

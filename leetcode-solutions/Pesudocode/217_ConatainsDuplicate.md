@@ -1,4 +1,4 @@
-# Problem 217: Contains Duplicates
+# Problem 217: Contains Duplicate
 Difficulty: Easy  
 Category: Array  
 Approach: used Set to store numbers
