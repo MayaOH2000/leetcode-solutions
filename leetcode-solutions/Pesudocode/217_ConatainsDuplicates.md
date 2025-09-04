@@ -1,10 +1,13 @@
 # Problem 217: Contains Duplicates
-Difficulty: Easy
-Category: Array
-Approach: 
+Difficulty: Easy  
+Category: Array  
+Approach: used Set to store numbers
 
 # Goal
-
+- Given an array of integers  
+    - Return:
+        - True → if any number appears at least twice
+        - False → if all numbers are unique
 
 # Example
 Example 1:
@@ -13,7 +16,7 @@ Example 1:
     Output: true
 
     Explanation:
-    The element 1 occurs at the indices 0 and 3.
+    The element 1 occurs at indices 0 and 3.
 
 Example 2:
 
@@ -29,3 +32,18 @@ Example 3:
     Output: true
 
 # Approach
+1. Create an empty set to track seen numbers  
+2. Loop through the array:
+    - If number already in set:
+        - Return True (duplicate found)
+    - Else:
+        - Add number to set
+        - Move to next number
+3. If loop finishes with no duplicates found:
+    - Return False
+
+# Notes on Set
+- A set only stores **unique values** (no duplicates allowed)
+- Example:
+    
+      set([3, 3, 1]) → {1, 3}  # order does not matter
