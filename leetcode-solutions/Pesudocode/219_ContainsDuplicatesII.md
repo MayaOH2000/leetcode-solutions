@@ -1,6 +1,6 @@
 # Problem 219: Contains Duplicate II
 Difficulty: Easy  
-Category: Array  
+Category: Array, Hasmap
 Approach: Hasmap (dictionary)
 
 # Goal
