@@ -10,7 +10,6 @@ Approach: Hasmap (dictionary)
             - i = first index of number occurance
             - j = second index of number occurance
 
-
 # Example
 Example 1:
 
