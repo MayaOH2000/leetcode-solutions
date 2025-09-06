@@ -2,7 +2,7 @@
 # Problem: Summary Ranges
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/summary-ranges/
-# Approach:
+# Approach: Two pointers (check for consecutive numbers)
 
 from typing import List
 
