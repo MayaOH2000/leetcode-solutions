@@ -1,10 +1,17 @@
-# Problem 228: Missing Number
+# Problem 268: Missing Number
 Difficulty: Easy  
 Category: Array
-Approach:
+Approach: Sort + Index Comparision
 
 # Goal
-
+- Given an array of numbers
+- Find the missing number in the range 
+    - Range is length of array (n)
+    - Numbers are all unique
+    - Number range is `[0, n]` , n = array range
+- Optional:
+    - O(1) extra space complexity 
+    - O(n) runtime complexity
 
 # Example
 Example 1:
@@ -35,3 +42,18 @@ Example 3:
     n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.
 
 # Appraoach
+1. Sort the array in ascending order (smallest to biggest)
+2. Get length of array -> `n = len(nums)`
+3. Go through array
+    - Compare current value if it matches index value
+        - If at end array and all numbers are in sequence:
+            - Then missing number is n
+        - If value matched index:
+            - Move to next position
+        - If no match:
+            - Return index since that will be missing number
+
+# Why it works
+- Sorting puts numbers in order so the index should match its value.  
+- The **first mismatch** between index and value gives the missing number.  
+- If no mismatch is found, the missing number is `n` (since `[0, n-1]` are all present). 

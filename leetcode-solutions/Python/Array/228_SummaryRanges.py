@@ -40,7 +40,6 @@ def summaryRanges(nums: List[int]) -> List[str]:
     return range_list
 
 
-
 if __name__ == "__main__":
     print(summaryRanges([0,2,3,4,6,8,9]))   # Output ["0","2->4","6","8->9"]
     print(summaryRanges([0,3,4])) # Output ["0","3->4"]
