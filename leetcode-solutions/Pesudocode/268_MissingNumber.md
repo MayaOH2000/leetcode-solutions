@@ -53,7 +53,7 @@ Example 3:
         - If no match:
             - Return index since that will be missing number
 
-# Why it works
+# Why it works?
 - Sorting puts numbers in order so the index should match its value.  
 - The **first mismatch** between index and value gives the missing number.  
 - If no mismatch is found, the missing number is `n` (since `[0, n-1]` are all present). 
