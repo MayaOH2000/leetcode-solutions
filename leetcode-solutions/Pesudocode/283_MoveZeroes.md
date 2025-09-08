@@ -34,7 +34,7 @@ Example 2:
         - Move p1 forward (go to next number)
 3. Repeat until p1 passes p2 
 
-# Why it works?
+# Why It Works?
 - Every time a zero is found, it is removed and pushed to the back
 - Non-zero numbers shift left automatically, keeping their relative order
 - Loop stops once all zeros are at the back
