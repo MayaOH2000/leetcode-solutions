@@ -1,10 +1,12 @@
-# Problem 303: Comparision Range Sum Query - Immutable
+# Problem 303: Range Sum Query - Immutable
 Difficulty: Easy  
 Category: Array
-Approach: Two Pointer
+Approach: Prefix Sum
 
 # Goal
-
+- Given an array oof integers:
+    - calculate the sum of numbers in the range from left to right ( including left and right  index numbers)
+- Multiple calls of ranges can be used
 
 # Example
 Example 1:

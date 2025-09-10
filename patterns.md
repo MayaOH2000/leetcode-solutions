@@ -25,10 +25,15 @@ Tracks common problem-solving patterns and example problems.
 - Status: Learning / tentative
 
 ### Prefix Sum
-- Description: Precompute cumulative sums for range queries.
-- Example Problems:
-  - TBD
-- Status: Learning / tentative
+- **Description:** Keep a running total of sums in an array to quickly get the sum of any subarray.
+- **Common Variations / Techniques:**
+  - Calculate running totals (cumulative sums)
+  - Handle multiple request (queries) on subarrays/ranges
+- **Typical Use Cases:** Arrays with repeated range sum queries
+- **Example Problems:**
+  - #303 Range Sum Query
+- **Status:** Learning / tentative
+- **Notes / Tips:** For a range [i, j], sum = prefix[j] - prefix[i-1]. If i = 0, just use prefix[j].
 
 ---
 

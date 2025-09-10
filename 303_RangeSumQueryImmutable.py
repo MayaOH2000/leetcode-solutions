@@ -1,8 +1,8 @@
 # ID: 303
-# Problem: Comparision Range Sum Query - Immutable
+# Problem: Range Sum Query - Immutable
 # Difficulty: Easy
-# Link: https://leetcode.com/problems/missing-number/
-# Approach: 
+# Link: https://leetcode.com/problems/range-sum-query-immutable/
+# Approach: Prefix Sum
 
 from typing import List
 
@@ -16,8 +16,8 @@ class NumArray:
 
 
 # Your NumArray object will be instantiated and called as such:
-# obj = NumArray(nums)
-# param_1 = obj.sumRange(left,right)
+obj = NumArray(nums)
+param_1 = obj.sumRange(left,right)
 
 if __name__ == "__main__":
     print()
