@@ -2,7 +2,7 @@
 # Problem: Intersection of Two Arrays
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/intersection-of-two-arrays/
-# Approach: AND operator with sets
+# Approach: Set intersection using & operator
 
 from typing import List
 

@@ -1,7 +1,7 @@
 # Problem 349 : Intersection of Two Arrays
 Difficulty: Easy
 Category: Array
-Approach: AND operator with sets
+Approach: Set intersection using & operator
 
 # Goal
 - Given two arrays of integers:
