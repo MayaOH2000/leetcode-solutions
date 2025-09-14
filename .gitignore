@@ -1,0 +1,50 @@
+# Compiled source files
+*.class
+*.pyc
+*.pyo
+*.exe
+*.dll
+*.obj
+*.o
+*.so
+*.out
+
+# C++ build files
+*.sln
+*.vcxproj*
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.user
+*.opensdf
+*.sdf
+*.cache
+*.log
+
+# Java build files
+*.jar
+*.war
+*.ear
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+
+# VS Code settings
+.vscode/
+
+# Visual Studio settings
+*.vs/
+*.dbmdl
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.tmp
