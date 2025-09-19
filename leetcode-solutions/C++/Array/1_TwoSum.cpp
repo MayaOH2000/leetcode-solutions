@@ -13,7 +13,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
     // Creating a hasmap/map (key: index, value: number)
     unordered_map<int,int> seen;
 
-    for( int i = 0; i < nums.size(); i++) {
+    for( int i = 0; i < nums.size(); ++i) {
         int current = nums[i];
         int missing = target - current;
 

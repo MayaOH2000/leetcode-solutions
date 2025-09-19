@@ -18,7 +18,7 @@ using namespace std;
         // Taking  first words as prefix in list
         string prefix = strs[0];
 
-        for(int i = 1; i < strs.size(); i++){
+        for(int i = 1; i < strs.size(); ++i){
             // Remove last letter if current word does not match prefix
             while (strs[i].find(prefix) != 0){
                 prefix = prefix.substr(0, prefix.size() - 1 );

@@ -38,7 +38,7 @@ Approach: Double Iteration (sorted array)
 1. Store unique element counter
 2. Go through the array with two pointers:  
    - **Pointer 1** → marks the current element.  
-   - **Pointer 2** → starts at the element right after Pointer 1. 
+   - **Pointer 2** → starts at the element right after Pointer p1
 3. Compare values at Pointer 1 and Pointer 2:  
    - If they **match**:  
      - Remove duplicate from array 
