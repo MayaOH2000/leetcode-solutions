@@ -2,7 +2,7 @@
 // Problem: Removed Duplicates from Sorted Array
 // Difficulty: Easy
 // Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-// Approch:
+// Approch: Double Iteration (sorted array)
 
 #include <iostream>
 #include <vector>
