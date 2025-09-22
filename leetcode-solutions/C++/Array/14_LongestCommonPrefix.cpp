@@ -10,7 +10,7 @@
 using namespace std;
 
  string longestCommonPrefix(vector<string>& strs) {
-        // Empty string retunr nothing
+        // Empty string returns nothing
         if (strs.empty()) {
             return "";
         }

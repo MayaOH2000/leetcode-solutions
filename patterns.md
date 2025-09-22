@@ -87,7 +87,8 @@ Tracks common problem-solving patterns and example problems.
 - Description: A way to solve problems step by step by **reusing answers** from smaller problems. (In other words, break a big problem into smaller ones and build the solution incrementally.)  
 - Intuition: Kind of like recursion (it repeats), but instead of doing the same work again and again, you **save the results** and build from them.  
 - Example Problems:
-  - TBD
+  - #118 Pascals Triangle
+  - #119 Pascals Triangle II
 - Status: Learning / tentative
 
 ---

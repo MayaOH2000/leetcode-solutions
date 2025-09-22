@@ -42,7 +42,7 @@ Example 3:
    - If the row has an **even number of elements**, the middle numbers mirror each other.
 4. Replace old row with new row
 5. Repeat until you reach the desired number of rows.
-6. Return the list of all rows.
+6. Return final row values of required index.
 
 # Key DP idea
 - Each row **reuses information from the previous row** to build the next row.
